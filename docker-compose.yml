@@ -1,0 +1,18 @@
+version: '3'
+services:
+  api:
+    build: .
+    image: api:latest
+    container_name: api
+    links:
+      - mongo
+    depends_on:
+      - mongo
+    environment:
+      - MONGO_HOST=mongo
+  mongo:
+    build: ./extensions/mongodb
+    image: backend-db:latest
+    container_name: mongo
+    ports:
+      - 27018:27017

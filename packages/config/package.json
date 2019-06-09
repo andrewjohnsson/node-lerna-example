@@ -1,0 +1,25 @@
+{
+  "name": "@andrewjohnsson/config",
+  "version": "1.0.0",
+  "description": "Pre-configured nconf for the service",
+  "author": "Andrey Ivanov <androID96966@gmail.com>",
+  "homepage": "https://github.com/andrewjohnsson/node-lerna-example#readme",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewjohnsson/node-lerna-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andrewjohnsson/node-lerna-example/issues"
+  },
+  "dependencies": {
+    "nconf": "^0.10.0"
+  }
+}
