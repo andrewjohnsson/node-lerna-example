@@ -20,6 +20,6 @@
     "url": "https://github.com/andrewjohnsson/node-lerna-example/issues"
   },
   "dependencies": {
-    "nconf": "^0.10.0"
+    "nconf": "^0.11.4"
   }
 }
